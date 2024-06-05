@@ -102,7 +102,6 @@ def select_option(selection):
         case "3":
         #on choisit un jeu avec la méthode idoine
             choose_game()
-            
         case "4":
             print ("Afficher Menu")
         case "5":
