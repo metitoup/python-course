@@ -1,0 +1,6 @@
+Name	Taluva	Duration	30	Maxplayers	5	
+Name	Dune Imperium	Duration	120	Maxplayers	4	
+Extension	Rise of X	Base	Dune Imperium	
+Name	Mauwi	Duration	30	Maxplayers	6	
+Extension	Mauwi Reactions	Base	Mauwi	
+Extension	Immortalité	Base	Dune Imperium	
