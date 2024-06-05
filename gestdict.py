@@ -23,7 +23,7 @@ class game():
     def save_game(self,dict_game):
     #on ouvre un fichier en append
         myfile=open("Gamedb.txt","a")
-    #on y écrit les infos du dictionnaire en rajoutant des tabulations
+    #on y écrit les infos du dictionnaire en rajoutant des tabulationsz
         for key,value in dict_game.items():
             myfile.write(key+"\t")
             myfile.write(value+"\t")
@@ -62,7 +62,7 @@ class extension(game):
         dict_game ["Extension"]=game_name
         dict_game ["Base"]=game_base
     #on utilise la fonction save_game de la classe parente
-        self.save_game(dict_game)
+        listofdicts.append(dict_game)
 
 def print_menu():
     print_separator()
@@ -139,9 +139,9 @@ if __name__ == '__main__':
         select_option(selection)
 
 #je parse le dictionnaire global tout est en mémoire
-for item in listofdicts: 
-    print (item ['Name'])
-    print (item ['Duration'])
+#for item in listofdicts: 
+#    print (item ['Name'])
+#    print (item ['Duration'])
 #et je vais tout taper dans le fichier en itérant
 mygame=game()
 for item in listofdicts:
